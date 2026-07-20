@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Result Page</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url("5590457.jpg") no-repeat center center fixed;
+            background-size: cover;
+        }
+        .navbar {
+            background-color: rgba(45, 98, 159, 0.933);
+            padding: 12px;
+            text-align: center;
+        }
+        .navbar a {
+            display:inline-block;
+            font-weight: bold;
+            color: aliceblue;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 0px 8px;
+            border-radius: 8px;
+            transition: background 0.3s ease;
+        }
+        .navbar a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        .result-box {
+            background: rgba(129, 120, 120, 0.386);
+            padding: 20px;
+            margin: 30px auto;
+            border-radius: 8px;
+            text-align: center;
+            width: 400px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        .result-box h1 {
+            color: aliceblue;
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .result-box-item {
+            background: rgba(255,255,255,0.7);
+            display: flex;
+            justify-content: space-between;
+            padding: 12px;
+            margin: 8px 0;
+            border-radius: 6px;
+            font-weight: bold;
+            color: #333;
+        }
+        .sgpa {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="studentindexpage.html">Home</a>
+        <a href="attendance.html">Attendance</a>
+        <a href="subject.html">Subjects</a>
+        <a href="fees.html">Fees</a>
+        <a href="event.html">Events</a>
+    </div>
+    <div class="result-box">
+        <h1>Results</h1>
+        <div class="result-box-item">
+            <div>Programming in C++</div>
+            <div>A+</div>
+        </div>
+        <div class="result-box-item">
+            <div>Basics of Mechanical Engineering</div>
+            <div>B+</div>
+        </div>
+        <div class="result-box-item">
+            <div>Digital Electronics</div>
+            <div>C</div>
+        </div>
+
+        <div class="result-box-item">
+            <div>Mathematics</div>
+            <div>A</div>
+        </div>
+
+        <div class="sgpa">SGPA: 8.67</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Admin Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url("5590457.jpg") no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .login-box {
+            background: rgba(255, 255, 255, 0.3); /* semi-transparent */
+            backdrop-filter: blur(8px);           /* frosty blur effect */
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+            width: 350px;
+            text-align: center;
+        }
+
+        .login-box h1 {
+            margin-bottom: 20px;
+            color: #000;
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        .input-group label {
+            font-weight: bold;
+            color: #000;
+        }
+
+        .input-group input {
+            width: 100%;
+            margin-top: 5px;
+            padding: 8px;
+            border: none;
+            border-radius: 6px;
+            background: rgba(255,255,255,0.6);
+        }
+
+        .login-box input[type="submit"] {
+            background: rgba(45, 98, 159, 0.9);
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+
+        .login-box input[type="submit"]:hover {
+            background: rgba(35, 80, 130, 0.95);
+        }
+
+        .back-link {
+            margin-top: 15px;
+        }
+        .back-link a {
+            color: #0044cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .back-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <form action=admin.html" method="post" class="login-box">
+        <h1>Admin Login</h1>
+
+        <div class="input-group">
+            <label>Email ID:</label>
+            <input type="text" placeholder="Enter Email ID">
+        </div>
+
+        <div class="input-group">
+            <label>Password:</label>
+            <input type="password" placeholder="Enter Password">
+        </div>
+
+        <div class="input-group">
+            <label>Admin ID:</label>
+            <input type="text" placeholder="Enter Admin ID">
+        </div>
+
+        <input type="submit" value="Login">
+
+        <!-- Back to Home link -->
+        <div class="back-link">
+            <p><a href="index.html">Back to Home</a></p>
+        </div>
+    </form>
+</body>
+</html>

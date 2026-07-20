@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign Up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('5590457.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .form-container {
+            background: rgba(255, 255, 255, 0.3); /* semi-transparent white */
+            backdrop-filter: blur(9px);          /* frosty blur effect */
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+            width: 400px;
+        }
+        .form-container h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #000;
+        }
+        .input-group {
+            margin-bottom: 15px;
+        }
+        .input-group label {
+            color: #000;
+            font-weight: bold;
+        }
+        .input-group input {
+            width: 100%;
+            margin-top: 5px;
+            padding: 8px;
+            border: none;
+            border-radius: 6px;
+            background: rgba(255,255,255,0.6); /* frosty input */
+        }
+        .form-container input[type="submit"] {
+            background: rgba(76, 175, 80, 0.8);
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+        .form-container input[type="submit"]:hover {
+            background: rgba(69, 160, 73, 0.9);
+        }
+        .login-link, .home-link {
+            text-align: center;
+            margin-top: 15px;
+        }
+        .login-link a, .home-link a {
+            color: #0044cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .login-link a:hover, .home-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <form action="loginpage.html" method="post" class="form-container">
+        <h1>Sign Up for Students</h1>
+        <div class="input-group">
+            <label>Student Name:</label>
+            <input type="text" placeholder="Enter Student Name">
+        </div>
+        <div class="input-group">
+            <label>Student ID:</label>
+            <input type="text" placeholder="Enter Student ID">
+        </div>
+        <div class="input-group">
+            <label>Email:</label>
+            <input type="email" placeholder="Enter Student Email">
+        </div>
+        <div class="input-group">
+            <label>New Password:</label>
+            <input type="password" placeholder="Password">
+        </div>
+        <div class="input-group">
+            <label>Confirm Password:</label>
+            <input type="password" placeholder="Re-enter Password">
+        </div>
+        <div class="input-group">
+            <label>Course Name:</label>
+            <input type="text" placeholder="Enter Course Name">
+        </div>
+        <input type="submit" value="Sign Up">
+        <div class="login-link">
+            <p>Already have an account? <a href="loginpage.html">Go to Login</a></p>
+        </div>
+        <div class="home-link">
+            <p><a href="index.html">Back to Home</a></p>
+        </div>
+    </form>
+</body>
+</html>

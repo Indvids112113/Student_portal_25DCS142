@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Event Page</title>
+    <style>
+        /* Navigation Bar */
+        .navbar {
+           background-color: rgba(45, 98, 159, 0.933);
+           text-align: center;
+           padding: 12px;
+        }
+        .navbar a {
+            color: aliceblue;
+            display: inline-block;
+            font-weight: bold;
+            padding: 10px 15px;
+            margin: 0px 8px;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s ease;
+        }
+        .navbar a:hover {
+            background: rgba(255, 255, 255, 0.2); /* fixed typo */
+        }
+
+        body {
+            background: url("5590457.jpg") no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .event-box {
+            background: rgba(129, 120, 120, 0.386);
+            backdrop-filter: blur(10px);
+            padding: 20px;
+            border-radius: 12px;
+            width: 400px;
+            margin: 30px auto;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        .event-box h1 {
+            text-align: center;
+            background-color: aliceblue;
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        /* Each Event Item */
+        .event-item {
+            display: flex;
+            justify-content: space-between;
+            background: rgba(255,255,255,0.7);
+            padding: 12px;
+            margin: 8px 0;
+            border-radius: 6px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="studentindexpage.html">Home</a>
+        <a href="result.html">Results</a>
+        <a href="Sbject.html">Subjects</a>
+        <a href="attendance.html">Attendance</a>
+        <a href="fees.html">Fees</a>
+    </div>
+
+    <div class="event-box">
+        <h1>Upcoming Events</h1>
+
+        <div class="event-item">
+            <div>n*n</div>
+            <div>25 July 2026</div>
+        </div>
+
+        <div class="event-item">
+            <div>Film Making Competition</div>
+            <div>20 August 2026</div>
+        </div>
+
+        <div class="event-item">
+            <div>Engineering day</div>
+            <div>15 September 2026</div>
+        </div>
+
+        <div class="event-item">
+            <div>Vrund Navratri Night</div>
+            <div>20 October 2026</div>
+        </div>
+    </div>
+</body>
+</html>

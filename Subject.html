@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Subject Page</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url("5590457.jpg") no-repeat center center fixed;
+            background-size: cover;
+        }
+        .navbar {
+            background-color: rgba(45, 98, 159, 0.933);
+            padding: 12px;
+            text-align: center;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 0 8px;
+            border-radius: 6px;
+            transition: background 0.3s ease;
+        }
+        .navbar a:hover {
+            background: rgba(255,255,255,0.2);
+        }
+        .subject-box {
+            background: rgba(255,255,255,0.4);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 12px;
+            width: 700px;
+            margin: 50px auto;
+        }
+
+        .subject-box h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .subject-section {
+            margin-bottom: 25px;
+        }
+        .subject-section h2 {
+            margin-bottom: 10px;
+            color: #2d629f;
+        }
+        .subject-list {
+            display: grid; /* grid layout */
+            grid-template-columns: repeat(2, 1fr); /* 2 columns */
+            gap: 10px 20px; /* spacing between items */
+        }
+        .subject-item {
+            background: rgba(255,255,255,0.6);
+            padding: 8px;
+            border-radius: 6px;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="studentindexpage.html">Home</a>
+        <a href="result.html">Results</a>
+        <a href="attendance.html">Attendance</a>
+        <a href="fees.html">Fees</a>
+        <a href="event.html">Events</a>
+    </div>
+    <div class="subject-box">
+        <h1>Subjects</h1>
+        <div class="subject-section">
+            <h2>List of Subjects for Sem 1:</h2>
+            <div class="subject-list">
+                <div class="subject-item">Mathematics</div>
+                <div class="subject-item">Physics</div>
+                <div class="subject-item">Programming with C</div>
+                <div class="subject-item">Basic Electrical Engineering</div>
+                <div class="subject-item">Liberal Arts</div>
+                <div class="subject-item">ICT</div>
+            </div>
+        </div>
+        <div class="subject-section">
+            <h2>List of Subjects for Sem 2:</h2>
+            <div class="subject-list">
+                <div class="subject-item">Physics</div>
+                <div class="subject-item">Mathematics</div>
+                <div class="subject-item">Programming with C++</div>
+                <div class="subject-item">Digital Electronics</div>
+                <div class="subject-item">Basics of Mechanical Engineering</div>
+                <div class="subject-item">Liberal Arts</div>
+                <div class="subject-item">Environmental Science</div>
+            </div>
+        </div>
+
+        <div class="subject-section">
+            <h2>List of Subjects for Sem 3:</h2>
+            <div class="subject-list">
+                <div class="subject-item">Discrete Mathematics</div>
+                <div class="subject-item">Data Structures</div>
+                <div class="subject-item">Web Development</div>
+                <div class="subject-item">Networking</div>
+                <div class="subject-item">Object Oriented Programming in Java</div>
+                <div class="subject-item">Liberal Arts</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
